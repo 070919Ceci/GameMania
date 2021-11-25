@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&family=Saira+Stencil+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&family=Saira+Stencil+One&family=Sigmar+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&family=Saira+Stencil+One&family=Sigmar+One&family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-grid {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* INICIO HEADER */
+header {
+  background-color: #067bc2;
+  height: 100px;
+}
+.header_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buscar {
+  width: 603px;
+  height: 50px;
+  background: rgba(249, 249, 249, 0.72);
+  border-radius: 30px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+nav {
+  margin-top: 7px;
+  background-color: black;
+  height: 50px;
+  color: black;
+}
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "Saira Stencil One";
+  text-transform: uppercase;
+}
+.header_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 12px;
+}
+
+nav a:hover {
+  color: #067bc2;
+}
+/* FIM HEADER */
+
+/* INICIO BANNER */
+.banner {
+  margin-top: 49px;
+  height: 630px;
+  background-image: url(fotos/banner/BANNER.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.banner {
+  padding-top: 100px;
+}
+.banner h3,
+h1,
+h2 {
+  text-align: center;
+}
+.banner h3 {
+  width: 482px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  margin-left: 30%;
+  color: white;
+  font-size: 60px;
+  font-family: "Sigmar One";
+}
+
+.banner h1,
+h2 {
+  color: white;
+  font-family: "Sigmar One";
+  font-size: 100px;
+}
+/* FIM BANNER */
+
+/* INICIO QUADROS */
+
+.quadros_1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 50px 0;
+}
+.quadros {
+  width: 264px;
+  height: 306px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.quadros p {
+  font-family: "Source Sans Pro";
+  font-size: 33px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.black {
+  background-color: black;
+  height: 900px;
+}
+.carrocel {
+  display: flex;
+  margin-top: 100px;
+}
+.foto_carrocel {
+  width: 587px;
+  height: 526px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.preço {
+  margin: 0 auto;
+  width: 583px;
+  height: 162px;
+  color: white;
+  font-size: 33px;
+  margin-left: 50px;
+}
+.preço p {
+  font-size: 76px;
+  color: red;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.titulo {
+  margin-top: 50px;
+  border-bottom: solid white 10px;
+}
+.titulo h1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+.btn {
+  width: 250px;
+  height: 80px;
+  background-color: #067bc2;
+  margin-left: 100px;
+  font-size: 30px;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
