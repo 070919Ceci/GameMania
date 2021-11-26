@@ -321,3 +321,72 @@ h2 {
 .btn_proc a:hover {
   color: black;
 }
+.maps {
+  margin-top: 100px;
+  background-image: url(fotos/footer/maps.png);
+  height: 541px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.dados {
+  width: 490px;
+  height: 166px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.dados h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dados p {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.redes {
+  height: 95px;
+  background-color: black;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.redes_1 {
+  display: flex;
+  justify-content: space-between;
+}
+.redes p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  color: white;
+  text-transform: uppercase;
+}
+.redes_logos {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_email {
+  padding-top: 20px;
+  height: 160px;
+  background-color: #067bc2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.footer_email p {
+  padding: 10px 0 0 18px;
+}
+.footer_email a {
+  font-size: 30px;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+}
+.footer_email p img {
+  padding-right: 25px;
+}
