@@ -81,10 +81,7 @@ header {
 
 .product a {
   text-decoration: none;
-  font-size: 20px;
   text-align: center;
-  color: black;
-  font-size: "Roboto";
 }
 .product {
   width: 94px;
@@ -97,6 +94,11 @@ header {
 
 .product p {
   padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+
+  color: black;
+  font-size: "Roboto";
 }
 .produ {
   flex-direction: row;
@@ -109,15 +111,39 @@ header {
 .product img:hover {
   width: 112px;
   height: 112px;
-  background-color: #4e5cdf;
+  background-color: #ffffff;
   border-radius: 50%;
   align-items: center;
 }
-
-.product img:checked {
-  width: 112px;
-  height: 112px;
-  background-color: #4e5cdf;
-  border-radius: 50%;
+.titulo_monte_1 h1 {
+  width: 563px;
+  justify-content: space-between;
+  display: flex;
   align-items: center;
+  margin: 50px 0 50px 0;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
+
+.quadrado_1 {
+  border-radius: 30px;
+  width: 1526px;
+  height: 1806px;
+  background-color: #067bc2;
+  display: flex;
+  margin: 0 auto;
+}
+.quadrado_1 nav a {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  margin: 50px 0 50px 50px;
+}
+.quadrado_1 nav {
+  display: flex;
+  border-bottom: solid 7px rgb(248, 248, 248);
+  justify-content: space-between;
+  text-transform: uppercase;
 }
