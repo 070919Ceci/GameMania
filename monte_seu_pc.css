@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&family=Saira+Stencil+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&family=Saira+Stencil+One&family=Sigmar+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&family=Saira+Stencil+One&family=Sigmar+One&family=Source+Sans+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rowdies&family=Saira+Stencil+One&family=Sigmar+One&family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-grid {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* INICIO HEADER */
+header {
+  background-color: #067bc2;
+  height: 100px;
+}
+.header_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buscar {
+  width: 603px;
+  height: 50px;
+  background: rgba(249, 249, 249, 0.72);
+  border-radius: 30px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.titulo_monte h1 {
+  font-family: "Saira Stencil One";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 100px;
+  color: #001aff;
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
+.titulo_h3 {
+  width: 1520px;
+  height: 78px;
+  background-color: #067bc2;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.titulo_h3 h3 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 40px;
+  font-family: "Saira Stencil One";
+}
+.produtos {
+  width: 1520px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1520px;
+  height: 310px;
+  border-radius: 20px;
+  background-color: #bebdbd;
+}
+
+.product a {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  font-size: "Roboto";
+}
+.product {
+  width: 94px;
+  height: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.product p {
+  padding-top: 10px;
+}
+.produ {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 0 50px;
+}
+
+.product img:hover {
+  width: 112px;
+  height: 112px;
+  background-color: #4e5cdf;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.product img:checked {
+  width: 112px;
+  height: 112px;
+  background-color: #4e5cdf;
+  border-radius: 50%;
+  align-items: center;
+}

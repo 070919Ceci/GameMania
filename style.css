@@ -11,7 +11,7 @@
 }
 
 .container-grid {
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -283,6 +283,8 @@ h2 {
 .card_lancamentos_1 {
   display: flex;
   justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .card_procurados {
   width: 366px;
