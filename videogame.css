@@ -67,43 +67,6 @@ nav a:hover {
 }
 /* FIM HEADER */
 
-/* INICIO BANNER */
-.banner {
-  margin-top: 45px;
-  height: 630px;
-  background-image: url(fotos/banner/BANNER.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-}
-
-.banner {
-  padding-top: 100px;
-}
-.banner h3,
-h1,
-h2 {
-  text-align: center;
-}
-.banner h3 {
-  width: 482px;
-  height: 100px;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 30px;
-  margin-left: 30%;
-  color: white;
-  font-size: 60px;
-  font-family: "Sigmar One";
-}
-
-.banner h1,
-h2 {
-  color: white;
-  font-family: "Sigmar One";
-  font-size: 100px;
-}
-/* FIM BANNER */
-
 /* INICIO QUADROS */
 
 .quadros_1 {
@@ -130,24 +93,25 @@ h2 {
 
 /* INICIO CARROCEL */
 .black {
-  background-color: black;
+  background-color: rgb(153, 152, 152);
   height: 900px;
 }
 .carrocel {
+  margin-top: 50px;
   display: flex;
   margin-top: 100px;
 }
 .foto_carrocel {
-  width: 587px;
-  height: 526px;
+  width: 842px;
+  height: 442px;
   display: flex;
   margin: 0 auto;
 }
 
 .preço {
   margin: 0 auto;
-  width: 583px;
-  height: 162px;
+  width: 483px;
+  height: 262px;
   color: white;
   font-size: 33px;
   display: flex;
@@ -155,8 +119,8 @@ h2 {
   align-items: center;
 }
 .preço p {
-  font-size: 76px;
-  color: red;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 .titulo {
