@@ -18,7 +18,6 @@
 /* INICIO HEADER */
 header {
   background-color: #067bc2;
-  height: 100px;
 }
 .header_1 {
   display: flex;
@@ -67,34 +66,32 @@ nav a:hover {
 }
 /* FIM HEADER */
 
-/* INICIO QUADROS */
-
-.quadros_1 {
-  display: flex;
-  justify-content: space-between;
+.titulo_monte h1 {
+  font-family: "Saira Stencil One";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 100px;
+  color: #001aff;
   margin: 50px 0 50px 0;
 }
-.quadros {
-  width: 264px;
-  height: 306px;
-  text-align: center;
-  margin: 0 auto;
+.titulo_h3 {
+  width: 1520px;
+  height: 78px;
+  background-color: #067bc2;
+  border-radius: 20px;
+  margin-bottom: 50px;
 }
-
-.quadros p {
-  font-family: "Source Sans Pro";
-  font-size: 33px;
-  color: black;
+.titulo_h3 h3 {
   text-transform: uppercase;
-  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  font-family: "Saira Stencil One";
 }
-
-/* INICIO QUADROS */
 
 /* INICIO CARROCEL */
 .black {
-  background-color: rgb(153, 152, 152);
-  height: 900px;
+  background-color: rgb(36, 0, 194);
+  height: 500px;
 }
 .carrocel {
   margin-top: 50px;
@@ -145,148 +142,77 @@ nav a:hover {
 
 /* FIM CARROCEL */
 
-/* INICIO LANCAMENTOS */
-
-.h1_lanc {
-  color: #067bc2;
-  font-size: 60px;
-
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 50px 0 50px 0;
-}
-
-.lancamentos {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.card_lancamentos {
-  width: 380px;
-  height: 475px;
-  text-align: center;
-  display: flex;
-  margin-left: 50px;
-}
-.card_lancamentos h6 {
-  font-size: 20px;
-  color: #067bc2;
-  text-align: center;
-  padding-top: 10px;
-}
-
-.card_lancamentos p {
-  font-size: 25px;
-  color: #067bc2;
-  text-align: center;
-  font-weight: bold;
-}
-.card_lancamentos a {
-  text-decoration: none;
-}
-
-.Button {
-  display: flex;
-  justify-content: center;
-}
-
-.Buton {
-  width: 250px;
-  height: 80px;
-  background-color: #067bc2;
-  font-size: 30px;
-  border-radius: 50px;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 50px;
-  align-items: center;
-}
-/* FIM LANCAMENTOS */
-
-/* INICIO EMAIL */
-
-.email_1 {
-  height: 300px;
-  background-color: #067bc2;
-  align-items: center;
-  display: flex;
+aside {
   text-align: center;
 }
 
-.email_1 h3 {
-  font-size: 47px;
-  padding-bottom: 20px;
-  color: black;
-}
-
-.email_3 input {
-  background: white;
-  width: 800px;
-  height: 81px;
+aside p {
   font-size: 40px;
-  font-weight: bold;
-  border: 0 none;
-  outline: 0;
-  align-items: center;
+  font-style: italic;
+  font-family: "roboto";
 }
 
-.email_3 {
-  background: white;
+/* INICIO QUADROS */
 
-  height: 81px;
-  border-radius: 50px;
-}
-.email_3 img {
-  padding-bottom: 20px;
-}
-
-/* FIM EMAIL */
-
-/* INICIO PROCURADOS */
-.card_lancamentos_1 {
+.quadros_1 {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  max-width: 1600px;
+  margin: 50px 0 50px 0;
+}
+.quadros {
+  width: 264px;
+  height: 306px;
+  text-align: center;
   margin: 0 auto;
 }
-.card_procurados {
-  width: 366px;
-  height: 620px;
+
+.quadros:hover {
+  width: 264px;
+  height: 270px;
   background-color: #067bc2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  border-radius: 30px;
 }
-.card_procurados h5 {
-  padding: 20px 0 20px 0;
-  color: white;
+
+.quadros p {
+  font-family: "Source Sans Pro";
+  font-size: 33px;
+  color: black;
+  text-transform: uppercase;
   font-weight: bold;
-  font-size: 20px;
+}
+/* FIM QUADROS */
+
+/* Produtos */
+
+.total-produtos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.produtos-video {
+  width: 350px;
+  height: 532px;
+  margin-bottom: 100px;
+}
+
+.produtos-video:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.produtos-video h3 {
+  font-size: 30px;
   text-align: center;
 }
-.card_procurados h3 {
-  font-size: 36px;
-  color: white;
-  font-weight: bold;
-  padding: 20px 0 20px 0;
-}
-.btn_proc {
-  width: 170px;
-  height: 40px;
-  background-color: white;
-  color: #067bc2;
-  text-transform: uppercase;
-  font-size: 20px;
-  border-radius: 30px;
+
+.produtos-video p {
+  font-size: 30px;
   font-weight: bold;
 }
-.btn_proc a {
-  text-decoration: none;
-}
-.btn_proc a:hover {
-  color: black;
-}
+
+/* footer */
+
 .maps {
   margin-top: 100px;
   background-image: url(fotos/footer/maps.png);
